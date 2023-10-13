@@ -1,0 +1,146 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 16px;
+  text-align: left;
+}
+
+thead {
+  background-color: #8d39db;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Buttons */
+.details-button {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 50px;
+}
+
+.delete-button {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 50px;
+}
+
+.save-button {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #20c21b;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+.discard-button {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+
+.details-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button:hover {
+  background-color: #b30101
+}
+
+.save-button:hover {
+  background-color:#187715
+}
+.discard-button:hover {
+  background-color: #b30101;
+}
+
+/* Shipment Details input box */
+.edit-box {
+  width: 75%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+.read-only-input {
+  background-color: #f0f0f0;
+  color: #555555;
+  cursor: default;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.input-box {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.input-box label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
